@@ -58,3 +58,37 @@
 	font-weight: bold;
 	cursor: pointer;
 }
+
+.nav-links .btn{
+    float: right;
+}
+
+.banner-title{
+	margin: 80px 130px;
+	color: #fff;
+}
+.banner-title h1{
+	font-size: 40 px;
+	margin-bottom: 30px;
+}
+
+.banner-title h1 span{
+	color:  #0E6ACA;
+}
+
+@media (max-width: 700px){
+	.nav-bar{
+		padding: 10px 30px;
+	}
+	.nav-links{
+		height: 100vh;
+		width: 200px;
+		background: #000;
+		top: 0;
+		right: 0;
+		position: absolute;
+		text-align: left;
+		z-index: 2;
+		
+	}
+}
