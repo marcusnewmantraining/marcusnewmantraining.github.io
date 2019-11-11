@@ -1,51 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Youtube Website</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-	
-										  
+	  <title>Youtube Website</title>
+	  <meta name="viewport" content="width=device-width,initial-scale=1">
+	  <link rel="stylesheet" href="style.css">
+	  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-	<body>
-	<div class="hero">
-	<div class="nav-bar">
-		<div class="nav-logo">
-		<img src="images/Logo.png" alt="marcus newman training logo" height="70px"/>
-	
-			</div>
-	  <div class="nav-links" id="nav-links">
-		  <i class="fa fa-close" onclick="closeMenu()"></i>
-		<ul>
+<body>
+		<div class="hero">
+	  <div class="nav-bar">
+		    <div class="nav-logo">
+		        <img src="images/Logo.png" alt="marcus newman training logo" height="70px"/>
+			  </div>
+	      <div class="nav-links" id="nav-links">
+		        <i class="fa fa-close" onclick="closeMenu()"></i>
+					<ul>
 		 		<a href="#"><li>HOME</li></a>
-		 		<a href="#"><li>ANIMATION</li></a>	
+		 		<a href="#"><li>ANIMATION</li></a>
 		 		<a href="#"><li>WEB DESIGN</li></a>
-				<a href="#"><li>VISUAL DESIGN COMPONENTS</li></a>	
-		  </ul>
+				<a href="#"><li>VISUAL DESIGN COMPONENTS</li></a>
+		  			</ul>
 			  <button type="button" class="btn">SIGN UP</button>
 		</div>
 		<i class="fa fa-bars" onclick="showMenu()"></i>
 		</div>
 		<div class="banner-title">
-		<h1>For all your <br><span>'Screen and Media'</span> <br> needs</h1>
-			<button type="button" class="btn">EXPLORE</button>
+		<h1>For all your <br><span>'Creative and <br> Digital Media'</span> <br> needs</h1>
+			<button type="button" class="btn">ABOUT</button>
 		</div>
 	</div>
-		<script>
-		var show =document.getElementsById("nav-links");
-		function showMenu(){
-			show.style.right="0";
-		}
+	<script>
+			var show = document.getElementById("nav-links");
+			 function showMenu(){
+					 show.style.right = "0";
+
+			 }
 			function closeMenu(){
-				show.style.right="-200px";
-			}
-			
-			
-		}
-		</script>
-	
+					 show.style.right = "-200px";
+
+			 }
+	 </script>
+
 </body>
 
 </html>
