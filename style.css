@@ -5,7 +5,8 @@
 }
 .hero{
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(markus-spiske-70Rir5vB96U-unsplash.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.6)),url(markus-spiske-70Rir5vB96U-unsplash.jpg
+);
     background-position: center;
     background-size: cover;
     overflow-x: hidden;
@@ -69,7 +70,70 @@
 .banner-title h1 span{
     color: #0E6ACA;
 }
-
+.vertical-bar{
+    height: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.search-icon{
+    height: 60%;
+    width: 80px;
+}
+.search-icon .fa{
+    margin: 45px 23px;
+    display: block;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.social-icons{
+    height: 35%;
+    width: 80px;
+    background: #0E6ACA;
+    text-align: center;
+    padding-top: 27%;
+    bottom: 0;
+    position: absolute;
+}
+.social-icons .fa{
+    margin: 15px 23px;
+    display: block;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.notifications{
+    display: flex;
+    width: 400px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: #0E6ACA;
+    align-items: center;
+}
+.contents{
+    flex-basis: 50%;
+    padding: 10px;
+}
+.notification-img{
+    flex-basis: 50%;
+}
+.notification-img img{
+    width: 100%;
+}
+.contents a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    margin: 0 10px;
+}
+.contents p{
+    text-align: right;
+    margin-top: 10px;
+}
 .nav-bar .fa{
     display: none;
 }
@@ -122,33 +186,4 @@
         margin-left: 25px;
         margin-top: 10px;
     }
-}
-
-h1{
-	margin: 80px 130px;
-	color: white;
-	font-size: 64px;
-	margin-bottom: 30px;
-}
-
-h2{
-	margin: 80px 130px;
-	color: #0E6ACA;
-	font-size: 55px;
-	margin-bottom: 30px;
-}
-
-p{
-	margin: 0 0 1em;
-margin-top: 0px;
-margin-right: 0px;
-margin-bottom: 1em;
-margin-left: 0px;
-	color: white;
-	font-size: 13px;
-	margin-bottom: 30px;
-}
-.article{
-
-
 }
