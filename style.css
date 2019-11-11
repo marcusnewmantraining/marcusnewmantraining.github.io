@@ -114,9 +114,14 @@
 	.nav-links .btn{
 		float: none;
 		margin-left: 25px;
-	}s
+		margin-top: 10px;
+	}
 	.nav-links .fa{
-		color: #f000;
+		display: block;
+		color: #fff;
+		margin: 10px 25px;
+		font-size: 22px;
+		cursor: pointer;
 	}
 
 }
