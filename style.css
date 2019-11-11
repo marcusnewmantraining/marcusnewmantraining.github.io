@@ -19,7 +19,7 @@
 	padding: 40px 120px;
 }
 .nav-logo svg{
-	width:130px;
+	width:135px;
 }
 .nav-links ul{
 	margin-left: 50px;
@@ -41,7 +41,7 @@
 	content: '';
 	width: 0%;
 	height: 2px;
-	background: #094887;
+	background: #0E6ACA;
 	display: block;
 	margin: auto;
 	transition: .2s;
@@ -49,4 +49,11 @@
 
 .nav-links ul li:hover:after{
 	width: 100%
+}
+
+.btn{
+	padding: 10px 20px;
+	border: 0;
+	background: #0E6ACA;
+	font-weight: bold;
 }
