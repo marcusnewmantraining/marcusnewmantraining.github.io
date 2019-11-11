@@ -16,9 +16,9 @@
 		<img src="images/Logo.png" alt="marcus newman training logo" height="70px"/>
 			
 			</div>
-	  <div class="nav-links">
+	  <div class="nav-links" id="nav-links">
+		  <i class="fa fa-close" onclick="closeMenu()"></i>
 		<ul>
-				<i class="fa fa-times"></i>
 		 		<a href="#"><li>HOME</li></a>
 		 		<a href="#"><li>ANIMATION</li></a>	
 		 		<a href="#"><li>WEB DESIGN</li></a>
@@ -26,12 +26,25 @@
 		  </ul>
 			  <button type="button" class="btn">SIGN UP</button>
 		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
 		</div>
 		<div class="banner-title">
 		<h1>For all your <br><span>'Screen and Media'</span> <br> needs</h1>
 			<button type="button" class="btn">EXPLORE</button>
 		</div>
 	</div>
+		<script>
+		var show =document.getElementsById("nav-links")
+		function showMenu(){
+			show.style.right="0";
+		}
+			function closeMenu(){
+				show.style.right="-200";
+			}
+			
+			
+		}
+		</script>
 	
 </body>
 

@@ -90,6 +90,11 @@
 	.nav-bar{
 		padding: 10px 30px;
 	}
+	.fa-bars{
+		position: absolute;
+		right: 20px;
+		top: 10px;
+	}
 	.nav-bar .fa{
 		display: block;
 		colour: #fff;
