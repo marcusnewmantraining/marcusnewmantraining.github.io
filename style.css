@@ -1,0 +1,57 @@
+*  {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-size:16px;
+}
+
+img,
+iframe {
+  max-width: 100%;
+  height: auto;
+  /* so that aspect ratio is kept even if height is declared in markup */
+  border: 0;
+  /* this stops a border if the image is inside a link */
+
+}
+
+body.base {
+	height: 6000px;
+    background: linear-gradient(to bottom, #EC1F27 0%, #FF007F 42%, #B292FF 100%);
+    width: 100%;
+    overflow-x: hidden;
+ }
+header {
+  background-color: rgba(0,0,0,0.7) /* black */
+}
+
+header, footer {
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h1, h2, p, li
+{
+  padding-bottom: 1em
+}
+
+.item {
+	background-color: #FAEBEB;
+	    line-height: 1.2;
+	margin: 2%;
+	padding: 2%;
+	border: 5px solid #231F20;
+	border-radius: 10px;
+}
+
+
