@@ -141,17 +141,20 @@
 .item {
   background-color: rgba(255,255,255,0.8);
   padding: 2%;
-  margin-bottom: 30px;
+	margin-bottom: 30px;
+		
+	}
 
 h1{
   color: white;
+	margin: 0.5em;
 	font-family: 'Roboto', sans-serif;
-
   font-size: 50px;
   text-transform: uppercase;
 }
 h2{
   color: #0E6ACA;
+	margin: 0.5em;
 	font-family: 'Roboto', sans-serif;
 
   font-size: 50px;
@@ -159,11 +162,13 @@ h2{
 }
 h3{
   color: #000;
+	margin: 0.5em;
  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-transform: uppercase;
 }
 p{
+	margin: 0.5em;
 	display: block;
 	line-height: 2 ;
     margin-block-start: 1em;
@@ -181,10 +186,14 @@ p{
 	float: right;
 }
 
-@media (max-width : 800px ){
+@media (max-width : 1070px ){
     .vertical-bar{
         display: none;
     }
+	
+	.nav-bar{
+		width: 135px;
+	}
     .banner-title{
         margin: 80px 40px;
     }
