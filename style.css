@@ -12,6 +12,22 @@
     overflow-x: hidden;
     position: relative;
 }
+
+.Sidebar {
+Width: 150px;
+Height:400px;
+background-color: rgba(255,255,255,0.8);
+Float: left;
+	}
+
+
+.mainbody{Width: 650px;
+	padding: 2%;
+	background-color: rgba(255,255,255,0.8);
+Height:400px;
+Float:right
+	}
+
 .nav-bar{
     display: flex;
     padding: 40px 120px;
@@ -147,7 +163,6 @@
 
 h1{
   color: white;
-	margin: 0.5em;
 	font-family: 'Roboto', sans-serif;
   font-size: 50px;
   text-transform: uppercase;
@@ -162,13 +177,13 @@ h2{
 }
 h3{
   color: #000;
-	margin: 0.5em;
+
  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   text-transform: uppercase;
 }
 p{
-	margin: 0.5em;
+
 	display: block;
 	line-height: 2 ;
     margin-block-start: 1em;
