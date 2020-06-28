@@ -104,6 +104,10 @@ padding-top: 25px;
    text-align: center;
 }
 
+
+
+
+/* nav */
 body {
   margin: 0;
 font-family: 'Muli', sans-serif;
@@ -129,8 +133,11 @@ font-family: 'Muli', sans-serif;
 
 .topnav a:hover {
   background-color: black;
+  transition: 1s;
   color: white;
 }
+
+
 
 .topnav a.active {
   background-color: #202020;
@@ -247,3 +254,5 @@ padding-right: 15px;
  
 
 }
+
+
