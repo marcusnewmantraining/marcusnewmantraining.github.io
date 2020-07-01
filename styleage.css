@@ -37,11 +37,21 @@ h2,p,li {
 .item {
        background-color: rgba(255, 255, 255, 0.90);
        padding:5%;
-       margin:5%; 
+       margin:25%; 
        margin-bottom: 20px; 
        margin-top: 20px; 
        border-radius:10px;
 }
+
+@media screen and (max-width: 600px) {
+	.item {
+		  margin:5%; 
+	}
+	
+}
+
+	
+
 /* let's bring the width in a little */
 /* check it out - we're responsive without even trying! */ 
 main {
@@ -215,14 +225,8 @@ padding-right: 15px;
 
 }
 
-.itemage {
-       background-color: rgba(255, 255, 255, 0.90);
-       padding:5%;
-       margin: 30%; 
-       margin-bottom: 20px; 
-       margin-top: 20px; 
-       border-radius:10px;
-}
+
+
 
 .buttonall {
 	
@@ -238,6 +242,7 @@ padding-right: 15px;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+	margin-bottom: 40px;
 }
 
 .button:hover {
@@ -253,3 +258,4 @@ padding-top: 1px;
 padding-bottom: 0px;
 text-align: center;
 }
+
