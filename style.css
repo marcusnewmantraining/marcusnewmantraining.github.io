@@ -1,3 +1,9 @@
+/* FONT */
+h1, p P{
+	font-family: 'Roboto', sans-serif;
+}
+
+
 /* HERO IMAGE */
 
 body, html {
