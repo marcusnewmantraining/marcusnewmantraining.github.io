@@ -4,6 +4,7 @@ h1, p P{
 }
 
 
+
 /* HERO IMAGE */
 
 body, html {
@@ -49,7 +50,6 @@ body, html {
 
 
 
-
 /* RESPONSIVE GALLERY */
 
 * {
@@ -61,7 +61,7 @@ body {
   font-family: Arial;
 }
 
-.header {
+.main {
   text-align: center;
   padding: 32px;
 }
