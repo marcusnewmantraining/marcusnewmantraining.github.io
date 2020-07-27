@@ -1,8 +1,19 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box; 
+   font-size:16px;
+}
+
+
 /* FONT */
 h1, p P{
 	font-family: 'Roboto', sans-serif;
 }
 
+h1 {
+   font-size:50px
+}
 
 
 /* HERO IMAGE */
@@ -31,16 +42,6 @@ body, html {
   color: white;
 }
 
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
 
 .hero-text button:hover {
   background-color: #555;
