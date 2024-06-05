@@ -1,0 +1,200 @@
+/* CSS for the header */
+header {
+    background: black;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed; /* Add position fixed */
+    width: 100%; /* Make the header full width */
+    top: 0; /* Position the header at the top of the viewport */
+    z-index: 1000; /* Ensure the header is on top of other content */
+}
+
+/* NAV */
+
+nav {
+    text-transform: uppercase; /* Make the text uppercase */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px; /* Adjust the margin value if needed */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+nav ul li a:hover {
+    color: #6633cc; /* Change color on hover */
+}
+
+
+/* CSS for the main content */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; /* Remove padding */
+	background-image: url("2024.BodyBG.jpg"); /* Replace 'your-background-image.jpg' with the path to your background image */
+
+}
+
+.hero {
+    background: url('2020.Hero.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #fff; /* Change text color to white */
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: #fff; /* Change text color to white */
+}
+
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    color: #333;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.about-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    color: #333;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.music-section {
+    background: rgba(0,0,0,0.00);
+    color: #fff;
+}
+
+footer {
+    background: rgba(0,0,0,0.00);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer p {
+    margin: 10px 0 0;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    width: 50%; /* Adjust the percentage as needed */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+@media screen and (max-width: 768px) {
+    .about-image img {
+        width: 80%; /* Adjust the percentage as needed for smaller screens */
+    }
+}
+
+.photography-gallery {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photography-gallery img {
+    max-width: calc(33.33% - 10px); /* Adjust the width as needed */
+    margin-bottom: 20px;
+}
+
+#more-photography {
+    background-color: black;/* Set background color to dark */
+    color: #fff; /* Set text color to white */
+}
+
+#more-photography p {
+    color: #fff; /* Set paragraph text color to white */
+}
+.contact .social-media {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px; /* Add margin to separate from the form */
+}
+
+.contact .social-media li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.contact .social-media li a {
+    text-decoration: none;
+    color: #333; /* Adjust link color as needed */
+    transition: color 0.3s; /* Add transition for smooth color change */
+}
+
+.contact .social-media li a:hover {
+    color: #6633cc ; /* Change color on hover */
+}

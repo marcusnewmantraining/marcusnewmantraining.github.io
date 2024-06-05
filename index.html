@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Disciplinary Artist</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#photography">Photography</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="hero">
+        <h1>Marcus Newman</h1>
+        <p>Teacher • Photographer • Musician</p>
+    </section>
+    
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About</h2>
+                <p>G'day and welcome to the official website of Marcus Newman, a multidisciplinary artist excelling in photography, music, and education. Marcus holds a bachelor’s degree in Media Arts from RMIT University.</p>
+                <p>In education, Marcus specialises in VCE VET Creative and Digital Media training, guiding students who've received premier awards and top designs in VCE VET.</p>
+                <p>In photography, he combines analogue and digital techniques, explores chemigrams, and experiments with unconventional methods like burying film. Marcus has been recognised with awards from the Centre of Contemporary Photography in 2013 and 2014.</p>
+                <p>In music, he's a dynamic live electronic artist influenced by techno music, known for energetic, improvised performances blending acid house and techno using analogue and digital synthesizers.&nbsp;</p>
+            </div>
+            <div class="about-image">
+                <img src="2024.Marcus.Portrait.jpg" alt="Portrait of Marcus Newman">
+            </div>
+        </div>
+    </section>
+    
+    <section id="music" class="content music-section">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/1ChY7ZaqFaO8qV8717iRJx?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </section>
+    
+    <section id="photography" class="content">
+        <div class="photography-gallery">
+            <img src="2021_MarcusNewman_CG_2500px019_JPG.jpg" alt="Portrait 1">
+            <img src="2021_MarcusNewman_CG_2500px018_JPG.jpg" alt="Portrait 2">
+            <img src="2021_MarcusNewman_CG_2500px025.jpg" alt="Portrait 3">
+        </div>
+        <p>Luminous Surveying • Chemigram experiments from 2021.</p>
+    </section>
+
+    <section id="more-photography" class="content">
+        <div class="photography-gallery">
+            <img src="2013.03.25.Marcus.Newman.Folio.070.jpg" alt="Square 1">
+            <img src="2013.03.25.Marcus.Newman.Folio.140.jpg" alt="Square 2">
+            <img src="2013.03.25.Marcus.Newman.Folio.121.jpg" alt="Square 3">
+        </div>
+		<p>Low Resolution • Ongoing experiments in low resolution.</p>  </section>
+    
+    <section id="contact" class="content contact">
+        <h2>Contact</h2>
+        <ul class="social-media">
+            <li><a href="mailto:marcusnewmantraining@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+            <li><a href="https://www.instagram.com/_marcus.newman_"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="https://www.twitch.tv/marcusnewman"><i class="fab fa-twitch"></i> Twitch</a></li>
+            <li><a href="https://open.spotify.com/artist/1ChY7ZaqFaO8qV8717iRJx?si=GsKG3bNvQD-A_3ZhdRESxw"><i class="fab fa-spotify"></i> Spotify</a></li>
+            <li><a href="https://www.youtube.com/@_MarcusNewman_"><i class="fab fa-youtube"></i> YouTube</a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Marcus Newman</p>
+    </footer>
+    
+    <!-- JavaScript code for scroll behavior -->
+    <script>
+        // Store the previous scroll position
+        let prevScrollPos = window.pageYOffset;
+
+        // Function to handle scroll events
+        function handleScroll() {
+            // Get the current scroll position
+            let currentScrollPos = window.pageYOffset;
+
+            // Check if the current scroll position is greater than the previous scroll position
+            if (prevScrollPos > currentScrollPos) {
+                // Scroll up, show the menu
+                document.querySelector("header").style.top = "0";
+            } else {
+                // Scroll down, hide the menu
+                document.querySelector("header").style.top = "-60px"; // Adjust the height of your menu
+            }
+
+            // Update the previous scroll position
+            prevScrollPos = currentScrollPos;
+        }
+
+        // Add event listener for scroll events
+        window.addEventListener("scroll", handleScroll);
+    </script>
+</body>
+</html>
