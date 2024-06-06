@@ -177,6 +177,17 @@ footer p {
 #more-photography p {
     color: #fff; /* Set paragraph text color to white */
 }
+
+#photography, #more-photography {
+    background-color: black;/* Set background color to dark */
+    color: #fff; /* Set text color to white */
+}
+
+#photography p, #more-photography p {
+    color: #fff; /* Set paragraph text color to white */
+}
+
+
 .contact .social-media {
     list-style-type: none;
     padding: 0;
@@ -197,4 +208,44 @@ footer p {
 
 .contact .social-media li a:hover {
     color: #6633cc ; /* Change color on hover */
+}
+
+
+/*portrait*/
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-content {
+        flex-direction: column;
+    }
+}
+
+
+.music-section {
+    background: rgba(0, 0, 0, 0.00);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: black;
+    margin: 20px 0; /* Add margin if needed */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
